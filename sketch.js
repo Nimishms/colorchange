@@ -24,7 +24,7 @@ function setup(){
     block3.shapeColor = "green";
 
     block4 = createSprite(320,580,200,30);
-    block4.shapeColor("red");
+    block4.shapeColor = "red";
 
     ball = createSprite(random(20,750),100, 40,40);
     ball.shapeColor = rgb(255,255,255);
